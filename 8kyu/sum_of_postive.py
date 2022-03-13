@@ -8,5 +8,5 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
-S
+
 print(positive_sum([2,3,4]))

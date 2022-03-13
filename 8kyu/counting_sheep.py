@@ -25,6 +25,6 @@ a = [True,  True,  True,  False,
           False, False, True,  True ]
 
 def count_sheeps(sheep):
-    return sum(sheep)
+    return sheep.count(True)
 
 print(count_sheeps(a))
